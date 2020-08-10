@@ -1,0 +1,6 @@
+This project will help us in creating a card component which could be added and removed 
+along with customization of the card with a one line and a picture with crop feature. 
+
+- Adding and Removing cards
+- customizing a card
+-  

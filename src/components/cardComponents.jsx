@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 const Cardcomponent = () => {
   const cardInfo = [
     { image: sivapic, title: "Siva", text: "Fullstack Developer" },
-    { image: rampic, title: "Ram", text: "Cyber security Engineer" },
+    { image: rampic, title: "Ram", text: "Reverse Engineer" },
     { image: satzpic, title: "RockySatz", text: "Data Scientist" },
     { image: dkpic, title: "Dk", text: "Fullstack Developer" },
   ];
@@ -21,8 +21,8 @@ const Cardcomponent = () => {
         <div className="card-body">
           <h5 className="card-title">{card.title}</h5>
           <p className="card-text">{card.text}</p>
-          <a href="www.google.com" className="btn btn-primary">
-            Go somewhere
+          <a href="www.google.com" className="btn btn-info">
+            Hire for Hacking
           </a>
         </div>
       </div>
@@ -66,7 +66,7 @@ const Cardcomponent = () => {
             <li class="nav-item">
               <a
                 class="nav-link disabled"
-                href="#"
+                href="www.google.com"
                 tabindex="-1"
                 aria-disabled="true"
               >
